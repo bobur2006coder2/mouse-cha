@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: blue;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+button{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0ex;
+    font-size: 23px;
+}
+h4{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.graf{
+    /* width: 450px; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    text-align: center;
+ gap: 50px;
+    line-height: 55px;
+    /* align-items: center; */
+
+}
+
+.grat{
+    /* width: 450px; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    text-align: center;
+ gap: 180px;
+    line-height: 55px;
+    /* align-items: center; */
+
+}
