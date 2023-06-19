@@ -1,6 +1,6 @@
 let btn=document.querySelectorAll("button")
 
-document.addEventListener('mouseover',(e)=>{
+window.addEventListener('mousemove',(e)=>{
    
 
     btn[0].innerHTML=e.x
